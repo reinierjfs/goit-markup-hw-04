@@ -310,6 +310,10 @@ img {
   background-color: var(--ocean);
 }
 
+.socmed-icon {
+  fill: var(--cloud);
+}
+
 .team-div {
   padding: 32px 0;
 }
