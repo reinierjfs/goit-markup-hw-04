@@ -12,6 +12,7 @@
   --ocean: #404bbf;
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
+  --light-slate: #8e8f99;
 }
 
 body {
@@ -327,7 +328,48 @@ img {
   text-align: center;
 }
 
-/* PORTFOLIO.HTML */
+/* SECTION 5 - CUSTOMER */
+
+.customer-section {
+  padding: 120px 0;
+}
+
+.customer-header {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--navy-blue);
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.customer-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customer-items {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.customer-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-slate);
+}
+
+.customer-link:hover,
+:focus {
+  border-color: var(--ocean);
+  color: var(--ocean);
+}
+
+/* ---------PORTFOLIO.HTML------------ */
 
 .section-portfolio {
   padding: 96px 0 120px 0;
