@@ -363,12 +363,19 @@ img {
   color: var(--light-slate);
 }
 
-.customer-link:hover,
-:focus {
+.customer-link:hover {
   border-color: var(--ocean);
   color: var(--ocean);
 }
 
+.customer-link:focus {
+  border-color: var(--ocean);
+  color: var(--ocean);
+}
+
+.customer-icon {
+  fill: currentColor;
+}
 /* ---------PORTFOLIO.HTML------------ */
 
 .section-portfolio {
