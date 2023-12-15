@@ -13,6 +13,7 @@
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
   --light-slate: #8e8f99;
+  --green: #31d0aa;
 }
 
 body {
@@ -451,7 +452,14 @@ img {
 .footer {
   background-color: var(--navy-blue);
   padding: 100px 0;
+  /* display: flex;
+  align-items: baseline; */
 }
+
+/* .footer-container {
+  display: flex;
+  align-items: baseline;
+} */
 
 .footer-info {
   display: inline-block;
@@ -467,4 +475,53 @@ img {
   color: var(--cloud);
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+/* homework 4 */
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.wrap-logo {
+  margin-right: 120px;
+}
+
+.socmed-text-footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.socmed-list-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.socmed-items-footer {
+  width: 40px;
+  height: 40px;
+}
+
+.socmed-link-footer {
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socmed-link-footer:hover,
+.socmed-link-footer:focus {
+  background-color: var(--green);
+}
+
+.socmed-icon-footer {
+  fill: var(--cloud);
 }
