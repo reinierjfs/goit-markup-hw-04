@@ -139,6 +139,21 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
+}
+
+.section-one-container {
+  /* background-color: var(--navy-blue);
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
 }
 
 .header-hero {
@@ -464,14 +479,9 @@ img {
 .footer {
   background-color: var(--navy-blue);
   padding: 100px 0;
-  /* display: flex;
-  align-items: baseline; */
+  max-width: 1440px;
+  margin: 0 auto;
 }
-
-/* .footer-container {
-  display: flex;
-  align-items: baseline;
-} */
 
 .footer-info {
   display: inline-block;
